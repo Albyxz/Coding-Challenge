@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;  
+}
+
+.container{
+    margin: auto;
+    margin-top: 30px;
+    height: 850px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 20px;
+}
+
+.logo{
+    height: 240px;
+    width: 240px;
+    margin: auto;
+    padding-top: 120px;  
+}
+
+.logo img{
+    width: 100%;
+}
+
+.main-title{
+    color: rgb(16, 212, 16);
+    font-family: 'M PLUS Rounded 1c';font-size: 35px;
+}
+
+.green-container{
+    height: 40px;
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(16, 212, 16);;
+    position: relative;
+}
+
+#nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.option{
+    color: white;
+    font-family: 'M PLUS Rounded 1c';font-size: 22px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+
+.option p{
+    font-family: 'M PLUS Rounded 1c';font-size: 15px;
+}
+
+
+
+#stato-carica-1{
+    height: 30px;
+    width: 350px;
+    background-color: rgb(255, 204, 110);
+    border-radius: 5px;
+}
+
+#stato-carica-2{
+    height: 30px;
+    width: 600px;
+    background-color: rgb(12, 161, 12);
+    border-radius: 5px;
+}
+
+#stato-carica-3{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(161, 56, 56);
+    border-radius: 5px;
+}
+
